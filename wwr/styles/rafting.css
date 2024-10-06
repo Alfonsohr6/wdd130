@@ -4,19 +4,24 @@
     box-sizing: border-box;
 }
 
-nav {
+
+
+header nav {
     background-color: #669bbc; 
     padding: 10px;
+    text-align: right;
 }
-nav a {
+header nav a {
     margin: 0;
     border: 1px solid;
     padding: 1rem;
     background-color: #003049;
     color: #fdf0d5;
-    text-align: right;
+    
 
 }
+
+
 .hero div {
 
     position: relative;
@@ -56,3 +61,7 @@ nav a {
     float: right;
 }
 
+footer nav a img { 
+    width: 50px;
+    float: right;
+}
