@@ -9,7 +9,7 @@ nav {
     padding: 10px;
 }
 nav a {
-    margin: 1rem;
+    margin: 0;
     border: 1px solid;
     padding: 1rem;
     background-color: #003049;
@@ -18,7 +18,7 @@ nav a {
 }
 .hero div {
 
-    position: absolute;
+    position: relative;
     
 }
 .hero h1 {
@@ -35,10 +35,10 @@ nav a {
 }
 
 .logo {
-
+    position: relative;
     float: left;
     margin: 20px;
-
+    height: auto;
 }
 
 .hero img {
