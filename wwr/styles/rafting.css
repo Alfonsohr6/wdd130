@@ -1,3 +1,16 @@
+.road-rage-regular {
+    font-family: "Road Rage", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.romanesco-regular {
+    font-family: "Romanesco", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +37,7 @@ header nav a {
     padding: 1rem;
     background-color: #003049;
     color: #fdf0d5;
+    text-decoration: none;
 
 }
 
