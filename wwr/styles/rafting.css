@@ -3,13 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    margin: 0;
+    border: 1px solid;
+    padding: 1rem;
+    background-color: #003049;
+}
 
 
 
 header nav {
     background-color: #669bbc; 
-    padding: 10px;
+    padding: 30px;
     text-align: right;
+    
 }
 header nav a {
     margin: 0;
@@ -17,7 +24,6 @@ header nav a {
     padding: 1rem;
     background-color: #003049;
     color: #fdf0d5;
-    
 
 }
 
@@ -25,41 +31,63 @@ header nav a {
 .hero div {
 
     position: relative;
-    
+    width: 100%;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    padding: 1rem;
+    background-color: #669bbc ;
+    color:  #fdf0d5;
+    text-align: center;
 }
 .hero h1 {
-
-    position: absolute;
+    
+    position: relative;
+   
 }
 
 .hero article { 
 
-    position: absolute;
-    background-color: #003049;
-    width: 100%;
+    position: relative;
+    
 
 }
 
-.hero p {
+.hero article p {
 
-    width: 20rem;
+    position: relative;
+    width: 100%;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); 
     padding: 1rem;
-    background-color: #fdf0d5;
-    color: #669bbc;
+    background-color: #669bbc ;
+    color:  #fdf0d5;
     text-align: center;
+    top: auto;
 }
 
 
 
-.hero img {
-
+.hero img{
     display: block;
     width: 100%;
     height: auto;
-    float: right;
+    position: relative;
+
 }
+
+section {
+
+    width: 100%;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    padding: 1rem;
+    background-color: #fdf0d5 ;
+    text-align: justify;
+    color: black;
+    position: relative;
+}
+
+
 
 footer nav a img { 
     width: 50px;
