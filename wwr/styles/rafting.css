@@ -1,10 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: #669bbc; 
     padding: 10px;
 }
+nav a {
+    margin: 1rem;
+    border: 1px solid;
+    padding: 1rem;
+    background-color: #003049;
+    color: #fdf0d5;
+
+}
 .hero div {
 
-    position: relative;
+    position: absolute;
     
 }
 .hero h1 {
@@ -15,6 +29,15 @@ nav {
 .hero article { 
 
     position: absolute;
+    background-color: #003049;
+    width: 100%;
+
+}
+
+.logo {
+
+    float: left;
+    margin: 20px;
 
 }
 
