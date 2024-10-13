@@ -1,3 +1,4 @@
+
 .road-rage-regular {
     font-family: "Road Rage", system-ui;
     font-weight: 400;
@@ -40,17 +41,31 @@
 
 }
 
-header a {
-    
-    color: aliceblue;
-    text-align: right;
-}
+/*Secion de header*/
+
 
 header img {
     position: relative;
     float: left;
 }
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
+}
+
+header nav a {
+    color: #fff;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+/* Seccion Hero*/
 .hero div {
 
     position: relative;
@@ -93,6 +108,13 @@ article img{
 section{
 
     position: relative;
+}
+
+.imevi{
+
+    width: 300px;
+    height: auto;
+
 }
 
 .minimi {
