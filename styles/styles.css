@@ -1,10 +1,45 @@
+/*Mi caja con bordes*/
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside{
+    width: 20em;
+    text-align: center;
+    position: relative;
+}
+
+/*mover la imagen a la derecha*/
+
+main img {
+    float: right;
+}
+
+/*poner la letra por arriba de la imagen con Absolute*/
+aside h2 {
+
+    position: absolute;
+    top: 47px;
+    left: 50px;
+}
 
 header,footer {
 
     max-width: 840px;
     margin: 0 auto;
 }
+
 
 nav {
     background-color: steelblue; 
