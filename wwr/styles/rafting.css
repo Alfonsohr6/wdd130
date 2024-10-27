@@ -37,6 +37,13 @@
     color: aliceblue;
 }
 
+.box3{
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+    padding: 1rem;
+    text-align: center;
+}
+
 .nosubraya { /*Aqui se quitara el subrayado a los links*/
 
     text-decoration: none;
