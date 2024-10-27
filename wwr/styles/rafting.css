@@ -38,10 +38,13 @@
 }
 
 .box3{
+    width: 400px;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1); 
     padding: 1rem;
     text-align: center;
+    left: 400px;
+    font-size: 30px;
 }
 
 .nosubraya { /*Aqui se quitara el subrayado a los links*/
@@ -100,9 +103,8 @@ header nav a {
 
 .hero p{
     
-    
     color: aliceblue;
-    width: 200px;
+    width: 500px;
     height: auto;
     font-size: 25px;
 }
@@ -113,6 +115,11 @@ article {
     top: 500px;
     text-align: center;
 
+}
+
+.hero article {
+
+    left: 400px;
 }
 
 article img{
@@ -308,6 +315,10 @@ legend{
     margin-bottom: 35px;
 }
 
+.txt p{
+    font-size: 20px;
+}
+
 .slider-box img{
 
     width: 640px;
@@ -351,5 +362,6 @@ legend{
 
     border: 3px solid #fafafa10;
     margin: 0 auto;
-    background: #fafafa10;
+    background: #0a0a0a15;
 }
+
