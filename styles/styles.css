@@ -110,6 +110,13 @@ footer {
 
 }
 
+.separ{
+
+    margin: 1px;
+    padding: 1px;
+
+}
+
 main{
 
     grid-column: 2/3;
